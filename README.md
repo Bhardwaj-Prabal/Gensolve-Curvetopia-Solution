@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ```
 
 ## How It Works
-- Run Regularization&Symmetry.ipynb
+- ~ Run Regularization&Symmetry.ipynb
 - **Input:** Users provide a CSV file containing coordinate data of various shapes.
 - **Classification:** The tool classifies the data into different shape categories.
 - **Regularization:** Each shape is then processed to become a perfect geometric form using specialized functions.
