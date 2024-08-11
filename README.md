@@ -1,7 +1,15 @@
+# GenSolve | Curvetopia
+
+GenSolve is a Python-based tool developed for the Adobe x GeeksforGeeks Hackathon, designed to process and analyze various geometric shapes by converting them into cubic Bezier curves. The project leverages several libraries, including NumPy, Matplotlib, Shapely, and SciPy, to facilitate the identification and manipulation of shapes like lines, circles, ellipses, rectangles, and more.
+
+
 # Shape Detection and Analysis
 
 This repository contains scripts and datasets for detecting shapes, finding lines of symmetry, and completing occluded shapes in images. The work is divided into three primary problems, each with its own set of steps and solutions.
 
+We have used two methods to solve the problems , first we have using Machine Learning and the second methods uses pure mathematics to achieve the same goal
+
+#Method 1
 ## File Structure
 + assets/                      (Folder containing images for readme)
 + shapes/                      (Folder containing shape datasets)
@@ -57,3 +65,51 @@ As shown in this example the terminal outputed `L1,L2,L3,L4`, `L8`,`L11,L12,L13,
 1. **Complete Occluded Shapes**:
    - Run `occlusion.py` to complete the shapes in the input image where parts of the shapes may be missing or occluded.
 ![](https://github.com/Manya-15/adobe_sub/blob/main/assets/occlusion.jpg) 
+
+
+
+#Method 2
+
+## Installation
+
+To get started with GenSolve, clone the repository and install the required dependencies using pip:
+
+```bash
+git clone git@github.com:Bhardwaj-Prabal/Gensolve-Curvetopia-Solution.git
+cd gensolve
+pip install -r requirements.txt
+```
+
+## How It Works
+
+- **Input:** Users provide a CSV file containing coordinate data of various shapes.
+- **Classification:** The tool classifies the data into different shape categories.
+- **Regularization:** Each shape is then processed to become a perfect geometric form using specialized functions.
+- **Symmetry Analysis:** The tool counts and analyzes symmetries within the shapes, providing valuable geometric insights.
+
+## Usage
+
+To use GenSolve, follow these steps:
+
+1. Place your CSV file in the project directory.
+2. Run the main script to process the CSV data.
+3. View the output, which includes the regularized shapes and symmetry counts.
+
+## Perfecting Geometric Shapes
+
+GenSolve includes several functions to adjust identified shapes to their ideal forms, such as perfect circles, rectangles, and lines.
+
+## Screenshots
+
+Input image<br/>
+![Input image](./assets/Screenshot%202024-08-11%20221641.png)
+
+Output<br/>
+![Output image](./assets/Screenshot%202024-08-11%20221651.png)
+
+Input image<br/>
+![Input image](./assets/Screenshot%202024-08-11%20221141.png)
+
+Output image<br/>
+![Output Image](./assets/Screenshot%202024-08-11%20222808.png)
+
