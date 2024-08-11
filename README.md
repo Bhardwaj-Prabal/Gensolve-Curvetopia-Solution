@@ -4,7 +4,6 @@ GenSolve is a Python-based tool developed for the Adobe x GeeksforGeeks Hackatho
 
 We have used two methods to solve the problems , first we have using Machine Learning and the second methods uses pure mathematics to achieve the same goal.
 
-# Method 1
 ## File Structure
 + assets/                      (Folder containing images for readme)
 + shapes/                      (Folder containing shape datasets)
@@ -21,6 +20,10 @@ We have used two methods to solve the problems , first we have using Machine Lea
 + make_model.py                (Script for training a CNN model for shape detection)
 + occlusion.py                 (Script for completing shapes in an input image)
 + symmetry.py                  (Script for finding lines of symmetry in shapes)
++ Regularization&Symmetry.ipynb (Script for method 2)
+  
+# Method 1 - OpenCV 
+
 
 ## Problem 1: Shape Detection
 
@@ -63,7 +66,7 @@ As shown in this example the terminal outputed `L1,L2,L3,L4`, `L8`,`L11,L12,L13,
 
 
 
-# Method 2
+# Method 2 -Mathematical Approach
 
 ## Installation
 
@@ -76,7 +79,7 @@ pip install -r requirements.txt
 ```
 
 ## How It Works
-
+- Run Regularization&Symmetry.ipynb
 - **Input:** Users provide a CSV file containing coordinate data of various shapes.
 - **Classification:** The tool classifies the data into different shape categories.
 - **Regularization:** Each shape is then processed to become a perfect geometric form using specialized functions.
