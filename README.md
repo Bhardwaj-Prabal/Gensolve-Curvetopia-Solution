@@ -2,7 +2,7 @@
 
 GenSolve is a Python-based tool developed for the Adobe x GeeksforGeeks Hackathon, designed to process and analyze various geometric shapes by converting them into cubic Bezier curves. The project leverages several libraries, including NumPy, Matplotlib, Shapely, and SciPy, to facilitate the identification and manipulation of shapes like lines, circles, ellipses, rectangles, and more.
 
-We have used two methods to solve the problems , first we have using Machine Learning and the second methods uses pure mathematics to achieve the same goal
+We have used two methods to solve the problems , first we have using Machine Learning and the second methods uses pure mathematics to achieve the same goal.
 
 # Method 1
 ## File Structure
