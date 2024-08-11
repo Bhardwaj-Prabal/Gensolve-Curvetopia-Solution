@@ -79,7 +79,9 @@ pip install -r requirements.txt
 ```
 
 ## How to run
-```bash pip Regularization&Symmetry.ipynb```
+```bash 
+pip Regularization&Symmetry.ipynb
+```
 
 ## How It Works
 - **Input:** Users provide a CSV file containing coordinate data of various shapes.
