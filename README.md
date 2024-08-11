@@ -9,7 +9,7 @@ This repository contains scripts and datasets for detecting shapes, finding line
 
 We have used two methods to solve the problems , first we have using Machine Learning and the second methods uses pure mathematics to achieve the same goal
 
-#Method 1
+# Method 1
 ## File Structure
 + assets/                      (Folder containing images for readme)
 + shapes/                      (Folder containing shape datasets)
@@ -68,7 +68,7 @@ As shown in this example the terminal outputed `L1,L2,L3,L4`, `L8`,`L11,L12,L13,
 
 
 
-#Method 2
+# Method 2
 
 ## Installation
 
